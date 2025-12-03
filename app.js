@@ -51,7 +51,7 @@
     analyzingEl.classList.add("visible");
 
     // ✅ 기존 결과 초기화
-    revealingValue.textContent = "-";
+    revealingValue.textContent = "";
     gradientBox.style.background = "#ccc";
 
     // ✅ 3초 딜레이 후 결과 출력
